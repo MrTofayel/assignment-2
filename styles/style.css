@@ -1,0 +1,313 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Open+Sans:wght@800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+ * {
+     font-family: 'Lato', sans-serif;
+     font-family: 'Open Sans', sans-serif;
+     font-family: 'Work Sans', sans-serif;
+ }
+ ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ }
+
+ * {
+     margin: 0;
+    
+     
+ }
+
+ .header {
+     display: flex;
+     justify-content: space-between;
+     padding: 38px 240px 38px 240px;
+     align-items: center;
+     background-color: white;
+
+
+ }
+
+ .header ul {
+     list-style: none;
+ }
+
+ .header li a {
+     color: #3C354F;
+     text-decoration: none;
+
+ }
+
+
+ .header1,
+ .header2 {
+     display: flex;
+     align-items: center;
+     gap: 40px;
+     
+
+ }
+
+ .header1 img {
+     width: 86.041px;
+     height: 40px;
+     align-items: center;
+ }
+
+ .header1 h3 {
+     text-align: center;
+     font-size: 45px;
+     font-weight: 700;
+     line-height: normal;
+     padding-top: 0;
+ }
+
+ .header2 a {
+     color: #3C354F;
+     text-align: center;
+     font-family: Work Sans;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+ }
+
+ .btn1 {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     width: 200px;
+     height: 45px;
+     border-radius: 8px;
+     background: rgba(11, 2, 35, 0.10);
+     border: 0;
+ }
+
+ @media screen and (max-width:576px) {
+     .header {
+         flex-direction: column;
+         padding: 1em;
+         padding-top: 30px;
+         padding-right: 50px;
+         align-items: center;
+
+     }
+
+     .header2 {
+         flex-direction: column;
+         padding: 30px 0px 30px 0px;
+         gap: 20px;
+
+     }
+
+     .btn1 {
+         margin-top: 20px;
+
+     }
+
+ }
+
+ .aa {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .aa li {
+     list-style: none;
+ }
+
+ .aa1 {
+     background-image: url(/images/Group\ 14.png);
+     width: 47%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    
+ }
+
+ .h3-1 {
+     color: #0B0223;
+     text-align: center;
+     font-family: Work Sans;
+     font-size: 48px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     text-transform: uppercase;
+ }
+
+ .h2-1 {
+     text-align: center;
+     font-family: Work Sans;
+     font-size: 95px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+     text-transform: uppercase;
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+ .s1 {
+     display: flex;
+     gap: 10px;
+     color: #534C64;
+     text-align: center;
+     font-family: Work Sans;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     text-transform: lowercase;
+     padding-bottom: 17px;
+ }
+
+ .aa3 {
+     display: flex;
+     gap: 24px;
+ }
+
+ .btn2 {
+     padding: 21px 40px;
+     align-items: flex-start;
+     gap: 10px;
+     border-radius: 48px;
+background-color: #ff42a5;
+color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+border: 0;
+
+ }
+ .btn3{
+    border-radius: 48px;
+background: #4EC5F7;
+display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+border: 0;
+ }
+
+ .aa4{
+    size: 100%;
+    padding-top: 19px;
+    padding-right: 240px;
+ }
+
+ @media screen and (max-width:576px) {
+
+.aa{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.aa1{
+    width:100%;
+    height: auto;
+    background-size: cover;
+   
+    margin: 0;
+    padding-top: 50px;
+    padding: auto;
+   
+}
+.aa4{
+    width: 100%;
+    /* padding-top: 19px;
+    padding: 20px; */
+   padding: 0;
+ }
+ }
+
+ .aa5 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 240px;
+    padding-right: 240px;
+    gap: 24px;
+ }
+ .aa5 ul{
+    padding: 0;
+    margin: 0;
+ }
+
+ .aa6{
+    width: 342px;
+height: 400px;
+flex-shrink: 0;
+border-radius: 16px;
+position: relative;
+transition: all 0.3s;
+
+ }
+ /* need icon in hober */
+ .aa7{
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 48px;
+ }
+
+.aa8{
+    color: #0B0223;
+text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.aa9{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding-top: 10px;
+}
+.aa10{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+width: 342px;
+
+}
+
+@media screen and (max-width:576px) {
+.aa5{
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+.aa8{
+    font-size: 150%;
+    display: inline;
+    
+}
+}
+@media screen and (max-width:325px) {
+    .aa8{
+        font-size: 100%;
+    }
+}
