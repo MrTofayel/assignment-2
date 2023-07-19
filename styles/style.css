@@ -543,3 +543,22 @@ line-height: normal;
 padding-top: 30px;
 padding-bottom: 130px;
 }
+
+@media screen and (max-width:576px) {
+    .naa3{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+   align-items: center;
+    }
+    .naa5{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+    }
+    .naa1{
+        background-size: cover;
+    }
+}
+.aa6:hover{
+    outline: #ff42a5 solid 3px  ;
+    
+}
