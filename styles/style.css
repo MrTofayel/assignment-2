@@ -226,8 +226,7 @@ border: 0;
 }
 .aa4{
     width: 100%;
-    /* padding-top: 19px;
-    padding: 20px; */
+    
    padding: 0;
  }
  }
@@ -253,7 +252,7 @@ position: relative;
 transition: all 0.3s;
 
  }
- /* need icon in hober */
+ 
  .aa7{
     display: flex;
 
@@ -374,11 +373,7 @@ padding-top: 24px;
         align-items: center;
 
     }
-    /* .aa13{
-        width: 400px;
-        border: #3C354F solid red;
-        padding: 0;
-    } */
+    
     .img32{
         width:70%;
     }
@@ -403,10 +398,7 @@ padding-top: 24px;
 }
 
 .aa01{
-   /* display: flex;
-   justify-content: space-around;
-   padding-top: 149px;
-   flex-wrap: wrap; */
+   
    display: grid;
    grid-template-columns: repeat(5, 1fr);
    
